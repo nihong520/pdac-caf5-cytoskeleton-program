@@ -1,0 +1,41 @@
+# Public source data and generated outputs
+data/raw/*
+!data/raw/.gitkeep
+results/*
+!results/.gitkeep
+manuscript/figures/main/*
+!manuscript/figures/main/.gitkeep
+manuscript/figures/supplementary/*
+!manuscript/figures/supplementary/.gitkeep
+manuscript/submission_pack/
+manuscript/tables/
+
+# Large scientific objects
+*.h5
+*.h5ad
+*.h5mu
+*.rds
+*.RData
+*.rda
+*.mtx
+*.mtx.gz
+*.soft
+*.soft.gz
+*.txt.gz
+*.csv.gz
+
+# Local environments and caches
+.Rhistory
+.Rproj.user/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
